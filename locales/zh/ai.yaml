@@ -1,0 +1,82 @@
+# AI Assistant translations - AI panel and features
+# UI Areas: Right sidebar AI panel, Welcome modal, Diff viewer
+
+ai:
+  panel:
+    inputPlaceholder: 问我关于你的图表的任何问题...
+    currentChat: 当前对话
+    previousChats: 历史对话
+    noOtherChats: 还没有其他对话
+    sendInstructions: 按回车发送，Shift+回车换行
+    sendMessage: 发送消息
+    workspaceDisabled: 工作区已禁用
+    editPermissionRequired: 需要编辑权限
+    usageLimitReached: 你已用完本月的使用额度。请在以下日期后重试
+    learnMoreAboutUsageLimits: 了解更多关于使用限制的信息
+    chat: 聊天
+    clickToEdit: 点击编辑
+    newChat: 新对话
+    showChatHistory: 显示对话历史
+    hideChatHistory: 隐藏对话历史
+  welcome:
+    title: 欢迎使用 DBDiagram AI
+    subtitle: 你的智能数据库设计助手
+  messages:
+    thinking: 思考中...
+    generating: 生成中...
+    explaining: 解释中...
+    error: 出了点问题。请重试。
+    rateLimit: 你已达到使用限制。请升级以继续使用。
+  diffViewer:
+    reject: 拒绝
+    accept: 接受
+    rejectAll: 全部拒绝
+    acceptAll: 全部接受
+  tokenUsage:
+    used: 已使用
+    usageText: 你已使用 {percentage} 的使用限额
+    tokens: tokens
+    learnMore: 点击了解更多关于使用限制的信息
+    resetOn: 重置日期
+  assistant:
+    dbmlCode: DBML 代码
+    lines: 行
+  responseMessages:
+    noExplanation: 数据库模式已更新。请查看差异查看器以审查变更。
+    invalidIntent: |-
+      欢迎使用 dbdiagram AI。
+
+      我可以帮你：
+
+      • **DBML 模式设计** - 创建和修改表、关系和数据库结构
+      • **数据库最佳实践** - 建议最佳数据类型、索引和约束
+      • **模式优化** - 用表组整理表、添加时间戳、重新映射数据类型
+      • **快速转换** - 在数据库系统之间转换（PostgreSQL、MySQL、SQL Server 等）
+
+      试着让我创建表、添加关系，或使用上面的快捷操作开始吧！
+  quickActionTitles:
+    createTableGroups: 创建表组
+    addTimestampColumns: 添加时间戳列
+    addRelationships: 添加关系
+    addIndexes: 添加索引
+    learnDatabaseDesign: 学习数据库设计
+    cloneSlack: 克隆 Slack
+    documentDatabase: 为数据库创建文档
+    todoList: 待办事项列表
+    remapDataTypes: 重新映射数据类型
+  quickActionDescriptions:
+    createTableGroups: 按领域和功能将表组织成逻辑组，并使用不同颜色
+    addTimestampColumns: 为需要审计跟踪的表添加 created_at 和 updated_at 列
+    addRelationships: 根据命名约定自动检测并添加外键关系
+    addIndexes: 为外键和常用查询列添加索引块
+    learnDatabaseDesign: 学习数据库设计
+    cloneSlack: 创建 Slack 克隆
+    documentDatabase: 创建用于存储文档的数据库
+    todoList: 创建待办事项列表应用
+    remapDataTypes: 转换数据类型以匹配目标数据库系统
+  quickActionSubActions:
+    postgresql: PostgreSQL
+    mysql: MySQL
+    sqlServer: SQL Server
+    sqlite: SQLite
+    oracle: Oracle

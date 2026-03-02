@@ -1,0 +1,49 @@
+# Authentication translations - Login, Signup, Password pages
+# UI Areas: Auth pages (/login, /signup, /forgot-password)
+
+auth:
+  login:
+    email: メールアドレス
+    loginWithGithub: GitHub でログイン
+    loginWithMicrosoft: Microsoft でログイン
+  oauth:
+    authorizationError: 認証に失敗しました
+    processing: 処理中...
+    justAMomentPleaseWait: 少々お待ちください...
+    signedInAs: ログイン中のアカウント
+    failedSignInGitHub: GitHub でのログインに失敗しました
+    failedSignInMicrosoft: Microsoft でのログインに失敗しました。もう一度お試しください！
+  errors:
+    invalidEmail: 無効なメールアドレスです。もう一度お試しください！
+    githubPopupBlocked: GitHub でのログインにはポップアップを許可してください
+  otp:
+    signInWithEmail: メールでサインイン
+    otpSentTo: OTP の送信先
+    wrongEmail: メールアドレスが違いますか？
+    changeEmail: メールアドレスを変更
+    inputEmail: メールアドレスを入力してください
+    inputYourOtp: OTP を入力
+    inputOtpCode: メールに送信された OTP コードを入力してください
+    signInSuccess: ログインに成功しました
+    didntReceiveOtp: OTP が届きませんか？
+    resendOtp: OTP を再送信
+    resendAfter: '{counter}秒後に OTP を再送信できます'
+    submit: 送信
+    sendOtpFailed: OTP の送信に失敗しました。もう一度お試しください！
+  sso:
+    orContinueWith: または以下で続行
+  portal:
+    signIn: サインイン
+  additional:
+    unknownError: 不明なエラー
+    invalidOtp: 無効な OTP です。もう一度お試しください！
+    cannotValidateOtp: OTP を検証できません。もう一度お試しください！
+    emailNotVerified: メールアドレスが確認されていません。Microsoft アカウントで確認してください。
+    cannotSignInMicrosoftSSO: Microsoft SSO でサインインできません。もう一度お試しください！
+    cannotSignIn: サインインできません。もう一度お試しください！
+    failedReloadProject: ログイン後のプロジェクトの再読み込みに失敗しました。ページを更新してください。
+    loginError: ログインエラー
+    signInCancelled: サインインがキャンセルされました。もう一度お試しください。
+  logoutCallback:
+    redirecting: リダイレクト中...
+    redirectDescription: 数秒後にアプリケーションにリダイレクトされます。

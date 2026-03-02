@@ -1,0 +1,138 @@
+# Common UI translations used across the application
+# UI Areas: Header toolbar, Help menu, Export/Import dropdowns, SSO login, Editor panel
+
+common:
+  buttons:
+    cancel: キャンセル
+    confirm: 確認
+    delete: 削除
+    history: 履歴
+    export: エクスポート
+    ok: OK
+    submit: 送信
+  help:
+    title: ヘルプ
+    documentation: ドキュメント
+    releaseNotes: リリースノート
+    roadmap: 製品ロードマップ
+    basicEditing: 基本的な編集操作
+    sendFeedback: フィードバックを送信
+    askCommunity: コミュニティに質問
+    suggestFeature: 機能を提案
+    contactUs: お問い合わせ
+    sampleDiagrams: サンプルダイアグラム
+    sampleAirbnb: Airbnb サンプル
+    sampleEcommerce: Eコマースサンプル
+    whatsNew: 新機能
+    language: 言語
+    contribute: このアプリの翻訳に協力
+  export:
+    title: エクスポート
+    publishToDbdocs: ドキュメントを公開（dbdocs へ）
+    toPdf: PDF へ
+    toPng: PNG へ
+    toSvg: SVG へ
+    toPostgreSQL: PostgreSQL へ
+    toMySQL: MySQL へ
+    toSQLServer: SQL Server へ
+    toOracleSQL: Oracle SQL へ
+  import:
+    title: インポート
+    importFrom: インポート元
+    fromDatabaseConnection: データベース接続から（CLI 経由）
+    fromMySQL: MySQL から
+    fromPostgreSQL: PostgreSQL から
+    fromSQLServer: SQL Server から
+    fromSnowflake: Snowflake から
+    fromOracleSQL: Oracle SQL から
+    fromRails: Rails (schema.rb) から
+    fromCSV: CSV から
+  upgrade:
+    title: アップグレード
+  quickActions:
+    title: クイックアクション
+  sso:
+    signInWithSSO: SSO でサインイン
+    signInWithEmail: メールでサインイン
+    useWorkEmail: 仕事用のメールアドレスで SSO を使って dbdiagram にアクセスしてください
+    signInUnsuccessful: サインインに失敗しました。仕事用のメールアドレスを確認するか、別の方法をお試しください。
+    selectWorkspace: サインインするワークスペースを選択してください
+  ai:
+    title: AI
+    scrollToBottom: 一番下にスクロール
+  actions:
+    confirmUnsaved:
+      title: 確認してください
+      content: 変更が保存されていない可能性があります。続行しますか？
+      negativeText: いいえ
+      positiveText: はい
+  states:
+    empty: データがありません
+  editor:
+    keyboardShortcuts: キーボードショートカット
+    openInDbdiagram: dbdiagram.io で開く
+    hide: エディターを非表示
+    expand: エディターを展開
+    loadingContent: サーバーからコンテンツを読み込み中です。お待ちください...
+  notifications:
+    noPermissionRemoveView: ダイアグラムビューを削除する権限がありません！
+    noPermissionRenameView: ダイアグラムビューの名前を変更する権限がありません！
+    workspaceDisabled: このワークスペースは現在無効になっています
+    noEditPermissionAi: dbdiagram AI を使用するには編集権限が必要です。ダイアグラムのオーナーにアクセス権のアップグレードを依頼してください。
+  needLogin:
+    hiThere: こんにちは、
+    saveQuery: ダイアグラムを保存するにはログインしてください
+    shareQuery: ダイアグラムを共有するにはログインしてください
+    newQuery: 新しいダイアグラムを作成するにはログインしてください
+    export: ダイアグラムをエクスポートするにはログインしてください
+    dbdocsAccess: dbdocs プロジェクトを編集するにはログインしてください
+    aiAssistant: dbdiagram AI アシスタントを使用するにはログインしてください
+    newDiagram: 新しいダイアグラムを作成するにはログインしてください
+    upgradePersonal: パーソナル Pro プランにアップグレードするにはログインしてください
+    upgradeTeam: チームプランのトライアルを開始するにはログインしてください
+    joinTeam: このチームワークスペースに参加するにはログインしてください
+    chartUpdateVisibleEntities: テーブル/付箋の表示設定を保存するにはログインしてください
+    diagramViewCreateView: 新しいダイアグラムビューを作成するにはログインしてください
+    default: 作業を続行するにはログインしてください
+  dbdocsAuth:
+    pleaseLoginWith: 以下の方法でログインしてください
+    youAreLoggedInAs: ログイン中です
+    viaSSO: SSO 経由
+    youNeedToLoginWith: 以下の方法でログインする必要があります
+    pleaseLoginToAccess: このプロジェクトにアクセスするにはログインしてください。
+    contactProjectOwner: アクセス権をリクエストするには、プロジェクトオーナーにお問い合わせください。
+    weWillNeedNonSSO: 認証には非 SSO アカウントを使用していただく必要があります。
+    weWillNeedSameEmail: 認証には dbdocs と同じメールアカウントを使用していただく必要があります。
+  additional:
+    collab:
+      noLongerViewPermission: 閲覧権限がなくなりました！
+      doNotHaveViewPermission: 閲覧権限がありません！
+      fullSession: セッションが満員のため接続できません！
+      diagramDeleted: このダイアグラムは削除されました！
+      overwrittenDiagram: ダイアグラムの内容が上書きされました。最新の変更を表示するには再読み込みしてください！
+      permissionsChanged: 権限が変更されました。変更を適用するには再読み込みしてください！
+      cannotReconnect: サーバーに再接続できません
+    query:
+      noPermissionShare: このダイアグラムを共有する権限がありません
+      cantCreateDiagram: 新しいダイアグラムを作成できません。ファイルをバックアップしてから、サインアウトして再ログインしてください
+      cantSaveDiagram: ダイアグラムを保存できません。ファイルをバックアップしてから、サインアウトして再ログインしてください
+      noPermissionSave: このダイアグラムを保存する権限がありません
+      diagramDeleted: ダイアグラムが削除されました
+      cantDeleteDiagram: ダイアグラムを削除できません。ファイルをバックアップしてから、サインアウトして再ログインしてください
+      noPermissionGetInfo: ダイアグラム情報を取得する権限がありません！
+      cantGetDiagramInfo: ダイアグラム情報を取得できません。もう一度お試しください！
+      noPermissionAccessProject: このプロジェクトにアクセスする権限がありません
+      failedLoadProjectDbdocs: DBDocs からプロジェクトの読み込みに失敗しました
+      failedPublishDbdocs: DBDocs へのプロジェクトの公開に失敗しました
+      pleaseSignInSaveDraft: ドラフトバージョンを保存するにはサインインしてください
+      noPermissionSaveDraft: ドラフトバージョンを保存する権限がありません
+      autoSaveDraftFailed: ドラフトの自動保存に失敗しました！
+      failedSaveDraft: ドラフトバージョンの保存に失敗しました
+      pleaseSignInDeleteDraft: ドラフトバージョンを削除するにはサインインしてください
+      noPermissionDeleteDraft: ドラフトバージョンを削除する権限がありません
+      failedDeleteDrafts: ドラフトバージョンの削除に失敗しました
+      pleaseSignInCheckVersion: バージョン状態を確認するにはサインインしてください
+      noPermissionCheckVersion: バージョン状態を確認する権限がありません
+      failedCheckVersion: バージョン状態の確認に失敗しました
+      pleaseSignInLoadLatest: 最新バージョンを読み込むにはサインインしてください
+      failedLoadLatest: 最新バージョンの読み込みに失敗しました

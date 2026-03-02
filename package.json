@@ -1,6 +1,6 @@
 {
   "name": "@holistics/dbx-multi-lang",
-  "version": "1.0.8",
+  "version": "1.1.0",
   "description": "Multi-language support package for DBDiagram",
   "type": "module",
   "main": "./dist/index.cjs",
@@ -11,7 +11,9 @@
       "require": "./dist/index.cjs"
     },
     "./dist/en.json": "./dist/en.json",
-    "./dist/vi.json": "./dist/vi.json"
+    "./dist/vi.json": "./dist/vi.json",
+    "./dist/zh.json": "./dist/zh.json",
+    "./dist/ja.json": "./dist/ja.json"
   },
   "files": [
     "dist",
@@ -23,7 +25,8 @@
     "link": "yarn link",
     "clean": "rm -rf ./dist",
     "prepublishOnly": "yarn build",
-    "build:locales": "node scripts/build-locales.cjs"
+    "build:locales": "node scripts/build-locales.cjs",
+    "test": "node --test tests/**/*.cjs"
   },
   "keywords": [
     "i18n",
@@ -38,5 +41,8 @@
   "devDependencies": {
     "vite": "^5.0.0"
   },
-  "repository": "https://github.com/holistics/dbx-multi-lang.git"
+  "repository": "https://github.com/holistics/dbx-multi-lang.git",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  }
 }

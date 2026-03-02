@@ -1,0 +1,82 @@
+# AI Assistant translations - AI panel and features
+# UI Areas: Right sidebar AI panel, Welcome modal, Diff viewer
+
+ai:
+  panel:
+    inputPlaceholder: ダイアグラムについて何でも聞いてください...
+    currentChat: 現在のチャット
+    previousChats: 過去のチャット
+    noOtherChats: 他のチャットはまだありません
+    sendInstructions: Enter で送信、Shift+Enter で改行
+    sendMessage: メッセージを送信
+    workspaceDisabled: ワークスペースが無効です
+    editPermissionRequired: 編集権限が必要です
+    usageLimitReached: 今月の使用量の上限に達しました。次回のリセット日以降に再度お試しください：
+    learnMoreAboutUsageLimits: 使用量の制限について詳しく見る
+    chat: チャット
+    clickToEdit: クリックして編集
+    newChat: 新しいチャット
+    showChatHistory: チャット履歴を表示
+    hideChatHistory: チャット履歴を非表示
+  welcome:
+    title: DBDiagram AI へようこそ
+    subtitle: データベース設計のためのインテリジェントアシスタント
+  messages:
+    thinking: 思考中...
+    generating: 生成中...
+    explaining: 説明中...
+    error: エラーが発生しました。もう一度お試しください。
+    rateLimit: 使用量の上限に達しました。続けるにはアップグレードしてください。
+  diffViewer:
+    reject: 却下
+    accept: 承認
+    rejectAll: すべて却下
+    acceptAll: すべて承認
+  tokenUsage:
+    used: 使用済み
+    usageText: 使用量の {percentage} を使用しました
+    tokens: tokens
+    learnMore: クリックして使用量の制限について詳しく見る
+    resetOn: リセット日
+  assistant:
+    dbmlCode: DBML コード
+    lines: 行
+  responseMessages:
+    noExplanation: スキーマが更新されました。差分ビューアーで変更を確認してください。
+    invalidIntent: |-
+      dbdiagram AI へようこそ。
+
+      お手伝いできること：
+
+      • **DBML スキーマ設計** - テーブル、リレーションシップ、データベース構造の作成と変更
+      • **データベースのベストプラクティス** - 最適なデータ型、インデックス、制約の提案
+      • **スキーマの最適化** - テーブルグループでの整理、タイムスタンプの追加、データ型の再マッピング
+      • **クイック変換** - データベースシステム間の変換（PostgreSQL、MySQL、SQL Server など）
+
+      テーブルの作成、リレーションシップの追加を依頼するか、上のクイックアクションを使って始めましょう！
+  quickActionTitles:
+    createTableGroups: テーブルグループを作成
+    addTimestampColumns: タイムスタンプカラムを追加
+    addRelationships: リレーションシップを追加
+    addIndexes: インデックスを追加
+    learnDatabaseDesign: データベース設計を学ぶ
+    cloneSlack: Slack をクローン
+    documentDatabase: データベースを文書化
+    todoList: ToDoリスト
+    remapDataTypes: データ型を再マッピング
+  quickActionDescriptions:
+    createTableGroups: テーブルをドメインと機能ごとに論理グループに整理し、異なる色を付けます
+    addTimestampColumns: 監査追跡が必要なテーブルに created_at と updated_at カラムを追加します
+    addRelationships: 命名規則に基づいて外部キーリレーションシップを自動検出し追加します
+    addIndexes: 外部キーとよく使われるクエリカラムにインデックスブロックを追加します
+    learnDatabaseDesign: データベース設計について学ぶ
+    cloneSlack: Slack のクローンを作成
+    documentDatabase: ドキュメント保存用のデータベースを作成
+    todoList: ToDoリストアプリケーションを作成
+    remapDataTypes: ターゲットデータベースシステムに合わせてデータ型を変換します
+  quickActionSubActions:
+    postgresql: PostgreSQL
+    mysql: MySQL
+    sqlServer: SQL Server
+    sqlite: SQLite
+    oracle: Oracle

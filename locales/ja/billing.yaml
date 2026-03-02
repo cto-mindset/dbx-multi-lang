@@ -1,0 +1,73 @@
+# Billing translations - Pricing, subscriptions, payment
+# UI Areas: Pricing page, Billing settings, Upgrade modals
+
+billing:
+  buttons:
+    upgrade: アップグレード
+    upgradeToPersonalPro: パーソナル Pro プランにアップグレード
+    collaborateWithTeam: チームプランで共同作業
+  pricing: null
+  plans:
+    free:
+      features:
+        - ダイアグラム最大3つ
+        - 基本的な編集ツール
+        - SQL/PNG としてエクスポート
+        - コミュニティサポート
+    pro:
+      features:
+        - 無制限のダイアグラム
+        - 高度な編集ツール
+        - バージョン履歴
+        - 優先サポート
+        - PDF としてエクスポート
+        - カスタムテーマ
+    team:
+      features:
+        - Pro のすべての機能
+        - チームコラボレーション
+        - 管理者コントロール
+        - SSO 認証
+        - 優先サポート
+        - カスタムインテグレーション
+  payment:
+    paymentMethod: 支払い方法
+  billing: null
+  subscription: null
+  personalPro: null
+  team: null
+  publicPricing: null
+  upgradeNowBtn:
+    ownerOnly: チームプランにアップグレードできるのはワークスペースのオーナーのみです
+  managePlanModal:
+    loadingSubscription: サブスクリプション情報を読み込み中...
+    currentPlan: 現在のプラン
+    personalPlanForever: パーソナルプラン - 永久
+    unknownPlan: 不明なプラン
+    billedMonthly: 毎月請求
+    billedAnnually: 毎年請求
+    chargeEvery: '{period} {unit}ごとに請求'
+    cancelledOn: キャンセル日
+    planDetails: プラン詳細 →
+    upgradeDescription: 有料プランにアップグレードして、詳細レベル、ヘッダーカラー、その他の新機能をご利用ください
+    nextPayment: 次回の支払い
+    chargedOn: 請求日
+    editSubscription: サブスクリプションを編集
+    switchToMonthly: 月額課金に切り替え
+    switchToYearly: 年額課金に切り替え
+    noPaymentMethod: 支払い方法なし
+    updatePaymentMethod: 支払い方法を更新
+    invoicing: 請求書発行
+    lastPayment: 前回の支払い
+    editBillingInfo: 請求情報を編集
+    paymentProcessing: お支払いを処理中です。数分後にページを再読み込みしてください。
+  disabledCard:
+    personalUpgrade: プレミアム機能を利用するには、パーソナルワークスペースをアップグレードしてください。
+    teamReadOnly: サブスクリプションのキャンセルにより、ワークスペースは読み取り専用モードです。ワークスペース機能を有効にするには、更新してください。
+  planPickingSimpleView:
+    collaborateWithTeamPlan: チームプランで共同作業
+    collaborateWithColleagues: 同僚と一緒に作業しましょう。
+    manageTeamDiagrams: チームのダイアグラムを一か所で管理。
+    startFreeTrial: 7日間の無料トライアルを開始
+    learnMore: 詳しく見る
+    pricingFrom: 料金 {currency}{price}/月から

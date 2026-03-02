@@ -1,0 +1,49 @@
+# Authentication translations - Login, Signup, Password pages
+# UI Areas: Auth pages (/login, /signup, /forgot-password)
+
+auth:
+  login:
+    email: 邮箱
+    loginWithGithub: 使用 GitHub 登录
+    loginWithMicrosoft: 使用 Microsoft 登录
+  oauth:
+    authorizationError: 授权失败
+    processing: 处理中...
+    justAMomentPleaseWait: 请稍候...
+    signedInAs: 你已登录为
+    failedSignInGitHub: 使用 GitHub 登录失败
+    failedSignInMicrosoft: 使用 Microsoft 登录失败，请重试！
+  errors:
+    invalidEmail: 无效的邮箱地址，请重试！
+    githubPopupBlocked: 请允许弹出窗口以使用 GitHub 登录
+  otp:
+    signInWithEmail: 使用邮箱登录
+    otpSentTo: OTP 已发送至
+    wrongEmail: 邮箱地址错误？
+    changeEmail: 更换邮箱
+    inputEmail: 请输入你的邮箱地址
+    inputYourOtp: 输入你的 OTP
+    inputOtpCode: 请输入发送到邮箱的 OTP 验证码
+    signInSuccess: 登录成功
+    didntReceiveOtp: 没有收到 OTP？
+    resendOtp: 重新发送 OTP
+    resendAfter: 你可以在 {counter} 秒后重新发送 OTP
+    submit: 提交
+    sendOtpFailed: 发送 OTP 失败，请重试！
+  sso:
+    orContinueWith: 或通过以下方式继续
+  portal:
+    signIn: 登录
+  additional:
+    unknownError: 未知错误
+    invalidOtp: 无效的 OTP，请重试！
+    cannotValidateOtp: 无法验证 OTP，请重试！
+    emailNotVerified: 你的邮箱未验证。请在 Microsoft 账号中验证邮箱。
+    cannotSignInMicrosoftSSO: 无法使用 Microsoft SSO 登录，请重试！
+    cannotSignIn: 无法登录，请重试！
+    failedReloadProject: 登录后重新加载项目失败。请刷新页面。
+    loginError: 登录错误
+    signInCancelled: 登录已取消。请重试。
+  logoutCallback:
+    redirecting: 重定向中...
+    redirectDescription: 你将在几秒钟后被重定向到应用程序。
