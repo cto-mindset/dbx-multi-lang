@@ -70,7 +70,7 @@ jobs:
           channel-id: ${{ env.SLACK_CHANNEL_ID }}
           payload: |
             {
-              "text": "*dbdocs CLI*: Version ${{ steps.slack_payload.outputs.version }} (${{ steps.slack_payload.outputs.today }}) has been released"
+              "text": "*dbx-multi-lang*: Version ${{ steps.slack_payload.outputs.version }} (${{ steps.slack_payload.outputs.today }}) has been released"
             }
         env:
           SLACK_BOT_TOKEN: ${{ steps.op-load-secret.outputs.SLACK_BOT_TOKEN }}
