@@ -1,4 +1,4 @@
-name: CI
+name: Validate Locales
 
 on:
   pull_request:
@@ -6,7 +6,7 @@ on:
       - main
 
 jobs:
-  test:
+  locale-completeness:
     runs-on: blacksmith-2vcpu-ubuntu-2204
 
     steps:
@@ -19,5 +19,5 @@ jobs:
       - name: Install dependencies
         run: yarn install --frozen-lockfile
 
-      - name: Test
+      - name: Check locale completeness
         run: yarn test
