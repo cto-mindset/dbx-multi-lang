@@ -88,6 +88,13 @@ account:
       noteIrreversible: Hành động này không thể hoàn tác.
       confirmButton: Xác nhận thay đổi
 
+    polling:
+      inProgressTitle: Đang cập nhật email trên các dịch vụ...
+      inProgressText: Quá trình này có thể mất vài phút. Bạn vẫn có thể tiếp tục sử dụng ứng dụng.
+      completedText: Email đã được cập nhật thành công trên tất cả các dịch vụ!
+      failedTitle: Một số dịch vụ không thể đồng bộ email mới của bạn.
+      failedText: Email của bạn đã được thay đổi, nhưng một số dịch vụ có thể vẫn hiển thị email cũ. Vui lòng liên hệ hỗ trợ tại dbdiagram@holistics.io.
+
     errors:
       invalidEmail: Vui lòng nhập địa chỉ email hợp lệ
       incorrectCode: Mã bạn nhập không chính xác

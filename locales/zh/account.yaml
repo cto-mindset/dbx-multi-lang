@@ -88,6 +88,13 @@ account:
       noteIrreversible: 此操作无法撤销。
       confirmButton: 确认更改
 
+    polling:
+      inProgressTitle: 正在跨服务更新您的邮箱...
+      inProgressText: 这可能需要几分钟。您仍然可以继续使用应用。
+      completedText: 邮箱已在所有服务中成功更新！
+      failedTitle: 部分服务未能同步您的新邮箱。
+      failedText: 您的邮箱已更改，但部分服务可能仍显示旧邮箱。请联系我们的支持团队 dbdiagram@holistics.io。
+
     errors:
       invalidEmail: 请输入有效的邮箱地址
       incorrectCode: 您输入的验证码不正确

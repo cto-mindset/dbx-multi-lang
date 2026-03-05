@@ -96,6 +96,14 @@ account:
       noteIrreversible: This action cannot be undone. # Note about irreversibility
       confirmButton: Confirm Change # Confirm change button
 
+    # Polling notifications for email change propagation
+    polling:
+      inProgressTitle: Updating your email across services... # Notification title while syncing
+      inProgressText: This may take a few minutes. You can still continue using the app. # Notification body while syncing
+      completedText: Email updated across all services successfully! # Success notification
+      failedTitle: Some services failed to sync your new email. # Warning notification title
+      failedText: Your email has been changed, but some services may still show the old one. Please contact our support at dbdiagram@holistics.io. # Warning notification body
+
     # Error messages
     errors:
       invalidEmail: Please enter a valid email address # Invalid email format
