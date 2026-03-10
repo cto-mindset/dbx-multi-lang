@@ -81,9 +81,7 @@ account:
       from: "从："
       to: "至："
       pleaseNote: 请注意：
-      noteLogin: 您需要使用新邮箱登录此账户。
       noteNotifications: 新邮箱将接收所有账户通知（账单、邀请等）。
-      noteSubscription: 您当前的订阅不会受到影响。无需进一步操作。
       noteLogout: 您不会被自动登出。请手动从其他设备登出。
       noteIrreversible: 此操作无法撤销。
       confirmButton: 确认更改

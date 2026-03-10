@@ -81,9 +81,7 @@ account:
       from: "変更前："
       to: "変更後："
       pleaseNote: ご注意ください：
-      noteLogin: 新しいメールでこのアカウントにログインする必要があります。
       noteNotifications: 今後、新しいメールにすべてのアカウント通知（請求、招待など）が届きます。
-      noteSubscription: 現在のサブスクリプションには影響しません。追加の操作は不要です。
       noteLogout: 自動的にログアウトされません。他のデバイスから手動でログアウトしてください。
       noteIrreversible: この操作は元に戻せません。
       confirmButton: 変更を確認

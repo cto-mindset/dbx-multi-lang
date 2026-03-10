@@ -89,9 +89,7 @@ account:
       from: "From:" # Label for current email in summary
       to: "To:" # Label for new email in summary
       pleaseNote: "Please note:" # Notes section title
-      noteLogin: You will need to use your new email to log in to this account. # Note about login
       noteNotifications: The new email will receive all account notifications (billing, invitations, etc.) in the future. # Note about notifications
-      noteSubscription: Your current subscription will not be affected. No further action is required. # Note about subscription (shown only if subscribed)
       noteLogout: "You won't be logged out automatically. Please log out from other devices manually." # Note about logout
       noteIrreversible: This action cannot be undone. # Note about irreversibility
       confirmButton: Confirm Change # Confirm change button

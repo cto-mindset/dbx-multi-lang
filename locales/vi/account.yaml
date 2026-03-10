@@ -81,9 +81,7 @@ account:
       from: "Từ:"
       to: "Đến:"
       pleaseNote: "Lưu ý:"
-      noteLogin: Bạn sẽ cần sử dụng email mới để đăng nhập vào tài khoản này.
       noteNotifications: Email mới sẽ nhận tất cả thông báo tài khoản (thanh toán, lời mời, v.v.) trong tương lai.
-      noteSubscription: Gói đăng ký hiện tại của bạn sẽ không bị ảnh hưởng. Không cần thực hiện thêm hành động nào.
       noteLogout: Bạn sẽ không bị đăng xuất tự động. Vui lòng đăng xuất thủ công từ các thiết bị khác.
       noteIrreversible: Hành động này không thể hoàn tác.
       confirmButton: Xác nhận thay đổi
