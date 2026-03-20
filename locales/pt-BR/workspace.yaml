@@ -82,7 +82,7 @@ workspace:
     dialog:
       removeMessage: Você está prestes a remover <b>{email}</b> do seu workspace, por favor, confirme sua ação!
     notifications:
-      removeSuccess: {email} removido do workspace com sucesso!
+      removeSuccess: "{email} removido do workspace com sucesso!"
       removeError: Não é possível remover {email} do workspace!
 
   # ========================================
