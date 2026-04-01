@@ -79,3 +79,9 @@ auth:
   logoutCallback:
     redirecting: Redirecting... # Loading message (logout redirect)
     redirectDescription: You will be redirected to the application in a few seconds. # Help text
+
+  popupsWarning:
+    title: Unable to open the sign-in window
+    description: The sign-in window may have been blocked by your browser or an extension. Please check your settings and try again.
+    needHelp: Need help?
+    contactSupport: Contact support

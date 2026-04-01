@@ -79,3 +79,9 @@ auth:
   logoutCallback:
     redirecting: Redirecionando...
     redirectDescription: Você será redirecionado para o aplicativo em alguns segundos.
+
+  popupsWarning:
+    title: Não foi possível abrir a janela de login
+    description: A janela de login pode ter sido bloqueada pelo seu navegador ou uma extensão. Verifique suas configurações e tente novamente.
+    needHelp: Precisa de ajuda?
+    contactSupport: Contato suporte
