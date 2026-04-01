@@ -82,8 +82,7 @@ auth:
 
   popupsWarning:
     title: Login window blocked
-    description: Please disable browser extensions, allow pop-ups for this site, and try again.
+    description: Please disable browser extensions, {0} for this site, and try again.
+    allowPopUps: allow pop-ups
     needHelp: Need help?
-    seeChromeGuide: See how to allow pop-ups in Chrome
-    or: or
     contactSupport: Contact support

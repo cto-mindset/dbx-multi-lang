@@ -2,57 +2,87 @@
 # UI Areas: Auth pages (/login, /signup, /forgot-password)
 
 auth:
+  # ========================================
+  # Login Page - Email/password login
+  # ========================================
   login:
-    email: メールアドレス
-    loginWithGithub: GitHub でログイン
-    loginWithMicrosoft: Microsoft でログイン
+    email: メールアドレス # Email input label
+    loginWithGithub: GitHub でログイン # Social login button (GitHub)
+    loginWithMicrosoft: Microsoft でログイン # Social login button (Microsoft)
+
+  # ========================================
+  # OAuth Errors - OAuth flow errors
+  # ========================================
   oauth:
-    authorizationError: 認証に失敗しました
-    processing: 処理中...
-    justAMomentPleaseWait: 少々お待ちください...
-    signedInAs: ログイン中のアカウント
-    failedSignInGitHub: GitHub でのログインに失敗しました
-    failedSignInMicrosoft: Microsoft でのログインに失敗しました。もう一度お試しください！
+    authorizationError: 認証に失敗しました # OAuth error title
+    processing: 処理中... # Loading state (OAuth redirect)
+    justAMomentPleaseWait: 少々お待ちください... # Loading message (OAuth redirect)
+    signedInAs: ログイン中のアカウント # Session label (SSO indicator)
+    failedSignInGitHub: GitHub でのログインに失敗しました # Error toast (GitHub OAuth)
+    failedSignInMicrosoft: Microsoft でのログインに失敗しました。もう一度お試しください！ # Error toast (Microsoft OAuth)
+
+  # ========================================
+  # Form Errors - Validation error messages
+  # ========================================
   errors:
-    invalidEmail: 無効なメールアドレスです。もう一度お試しください！
-    githubPopupBlocked: GitHub でのログインにはポップアップを許可してください
+    invalidEmail: 無効なメールアドレスです。もう一度お試しください！ # Email validation
+    githubPopupBlocked: GitHub でのログインにはポップアップを許可してください # Browser setting error
+
+  # ========================================
+  # OTP Authentication - One-time password
+  # ========================================
   otp:
-    signInWithEmail: メールでサインイン
-    otpSentTo: OTP の送信先
-    wrongEmail: メールアドレスが違いますか？
-    changeEmail: メールアドレスを変更
-    inputEmail: メールアドレスを入力してください
-    inputYourOtp: OTP を入力
-    inputOtpCode: メールに送信された OTP コードを入力してください
-    signInSuccess: ログインに成功しました
-    didntReceiveOtp: OTP が届きませんか？
-    resendOtp: OTP を再送信
-    resendAfter: '{counter}秒後に OTP を再送信できます'
-    submit: 送信
-    sendOtpFailed: OTP の送信に失敗しました。もう一度お試しください！
+    signInWithEmail: メールでサインイン # OTP tab label
+    otpSentTo: OTP の送信先 # Label (shows masked email)
+    wrongEmail: メールアドレスが違いますか？ # Change email link
+    changeEmail: メールアドレスを変更 # Change email button
+    inputEmail: メールアドレスを入力してください # Email input placeholder
+    inputYourOtp: OTP を入力 # OTP input placeholder
+    inputOtpCode: メールに送信された OTP コードを入力してください # OTP help text
+    signInSuccess: ログインに成功しました # Success message
+    didntReceiveOtp: OTP が届きませんか？ # Help text (resend section)
+    resendOtp: OTP を再送信 # Resend button
+    resendAfter: '{counter}秒後に OTP を再送信できます' # Timer label (disabled state)
+    submit: 送信 # OTP submit button
+    sendOtpFailed: OTP の送信に失敗しました。もう一度お試しください！ # Error toast
+
+  # ========================================
+  # SSO Login - Single Sign-On
+  # ========================================
   sso:
-    orContinueWith: または以下で続行
+    orContinueWith: または以下で続行 # SSO divider text
+
+  # ========================================
+  # Embedded Portal - OAuth portal pages
+  # ========================================
   portal:
-    signIn: サインイン
+    signIn: サインイン # Button (portal embedded login)
     signInWith: '〜でサインイン'
+
+  # ========================================
+  # Additional Errors - Extra error messages
+  # ========================================
   additional:
-    unknownError: 不明なエラー
-    invalidOtp: 無効な OTP です。もう一度お試しください！
-    cannotValidateOtp: OTP を検証できません。もう一度お試しください！
-    emailNotVerified: メールアドレスが確認されていません。Microsoft アカウントで確認してください。
-    cannotSignInMicrosoftSSO: Microsoft SSO でサインインできません。もう一度お試しください！
-    cannotSignIn: サインインできません。もう一度お試しください！
-    failedReloadProject: ログイン後のプロジェクトの再読み込みに失敗しました。ページを更新してください。
-    loginError: ログインエラー
-    signInCancelled: サインインがキャンセルされました。もう一度お試しください。
+    unknownError: 不明なエラー # Fallback error
+    invalidOtp: 無効な OTP です。もう一度お試しください！ # OTP validation error
+    cannotValidateOtp: OTP を検証できません。もう一度お試しください！ # OTP validation failure
+    emailNotVerified: メールアドレスが確認されていません。Microsoft アカウントで確認してください。 # MS email verification
+    cannotSignInMicrosoftSSO: Microsoft SSO でサインインできません。もう一度お試しください！ # MS SSO error
+    cannotSignIn: サインインできません。もう一度お試しください！ # Generic sign-in error
+    failedReloadProject: ログイン後のプロジェクトの再読み込みに失敗しました。ページを更新してください。 # Reload error
+    loginError: ログインエラー # Generic login error
+    signInCancelled: サインインがキャンセルされました。もう一度お試しください。 # Cancelled flow
+
+  # ========================================
+  # Logout Callback - Post-logout redirect
+  # ========================================
   logoutCallback:
-    redirecting: リダイレクト中...
-    redirectDescription: 数秒後にアプリケーションにリダイレクトされます。
+    redirecting: リダイレクト中... # Loading message (logout redirect)
+    redirectDescription: 数秒後にアプリケーションにリダイレクトされます。 # Help text
 
   popupsWarning:
     title: ログインウィンドウがブロックされました
-    description: ブラウザの拡張機能を無効にするか、このサイトのポップアップを許可してから、もう一度お試しください。
+    description: ブラウザの拡張機能を無効にするか、このサイトの{0}してから、もう一度お試しください。
+    allowPopUps: ポップアップを許可
     needHelp: お困りですか？
-    seeChromeGuide: Chrome でポップアップを許可する方法を確認する
-    or: または
     contactSupport: サポートに問い合わせる
