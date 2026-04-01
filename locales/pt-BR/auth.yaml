@@ -79,3 +79,10 @@ auth:
   logoutCallback:
     redirecting: Redirecionando...
     redirectDescription: Você será redirecionado para o aplicativo em alguns segundos.
+
+  popupsWarning:
+    title: Janela de login bloqueada
+    description: Desative as extensões do navegador, {0} para este site, e tente novamente.
+    allowPopUps: permitir pop-ups
+    needHelp: Precisa de ajuda?
+    contactSupport: Contato suporte
