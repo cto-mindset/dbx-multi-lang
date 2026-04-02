@@ -2,49 +2,86 @@
 # UI Areas: Auth pages (/login, /signup, /forgot-password)
 
 auth:
+  # ========================================
+  # Login Page - Email/password login
+  # ========================================
   login:
-    email: 邮箱
-    loginWithGithub: 使用 GitHub 登录
-    loginWithMicrosoft: 使用 Microsoft 登录
+    email: 邮箱 # Email input label
+    loginWithGithub: 使用 GitHub 登录 # Social login button (GitHub)
+    loginWithMicrosoft: 使用 Microsoft 登录 # Social login button (Microsoft)
+
+  # ========================================
+  # OAuth Errors - OAuth flow errors
+  # ========================================
   oauth:
-    authorizationError: 授权失败
-    processing: 处理中...
-    justAMomentPleaseWait: 请稍候...
-    signedInAs: 你已登录为
-    failedSignInGitHub: 使用 GitHub 登录失败
-    failedSignInMicrosoft: 使用 Microsoft 登录失败，请重试！
+    authorizationError: 授权失败 # OAuth error title
+    processing: 处理中... # Loading state (OAuth redirect)
+    justAMomentPleaseWait: 请稍候... # Loading message (OAuth redirect)
+    signedInAs: 你已登录为 # Session label (SSO indicator)
+    failedSignInGitHub: 使用 GitHub 登录失败 # Error toast (GitHub OAuth)
+    failedSignInMicrosoft: 使用 Microsoft 登录失败，请重试！ # Error toast (Microsoft OAuth)
+
+  # ========================================
+  # Form Errors - Validation error messages
+  # ========================================
   errors:
-    invalidEmail: 无效的邮箱地址，请重试！
-    githubPopupBlocked: 请允许弹出窗口以使用 GitHub 登录
+    invalidEmail: 无效的邮箱地址，请重试！ # Email validation
+    githubPopupBlocked: 请允许弹出窗口以使用 GitHub 登录 # Browser setting error
+
+  # ========================================
+  # OTP Authentication - One-time password
+  # ========================================
   otp:
-    signInWithEmail: 使用邮箱登录
-    otpSentTo: OTP 已发送至
-    wrongEmail: 邮箱地址错误？
-    changeEmail: 更换邮箱
-    inputEmail: 请输入你的邮箱地址
-    inputYourOtp: 输入你的 OTP
-    inputOtpCode: 请输入发送到邮箱的 OTP 验证码
-    signInSuccess: 登录成功
-    didntReceiveOtp: 没有收到 OTP？
-    resendOtp: 重新发送 OTP
-    resendAfter: 你可以在 {counter} 秒后重新发送 OTP
-    submit: 提交
-    sendOtpFailed: 发送 OTP 失败，请重试！
+    signInWithEmail: 使用邮箱登录 # OTP tab label
+    otpSentTo: OTP 已发送至 # Label (shows masked email)
+    wrongEmail: 邮箱地址错误？ # Change email link
+    changeEmail: 更换邮箱 # Change email button
+    inputEmail: 请输入你的邮箱地址 # Email input placeholder
+    inputYourOtp: 输入你的 OTP # OTP input placeholder
+    inputOtpCode: 请输入发送到邮箱的 OTP 验证码 # OTP help text
+    signInSuccess: 登录成功 # Success message
+    didntReceiveOtp: 没有收到 OTP？ # Help text (resend section)
+    resendOtp: 重新发送 OTP # Resend button
+    resendAfter: 你可以在 {counter} 秒后重新发送 OTP # Timer label (disabled state)
+    submit: 提交 # OTP submit button
+    sendOtpFailed: 发送 OTP 失败，请重试！ # Error toast
+
+  # ========================================
+  # SSO Login - Single Sign-On
+  # ========================================
   sso:
-    orContinueWith: 或通过以下方式继续
+    orContinueWith: 或通过以下方式继续 # SSO divider text
+
+  # ========================================
+  # Embedded Portal - OAuth portal pages
+  # ========================================
   portal:
-    signIn: 登录
+    signIn: 登录 # Button (portal embedded login)
     signInWith: 登录为
+
+  # ========================================
+  # Additional Errors - Extra error messages
+  # ========================================
   additional:
-    unknownError: 未知错误
-    invalidOtp: 无效的 OTP，请重试！
-    cannotValidateOtp: 无法验证 OTP，请重试！
-    emailNotVerified: 你的邮箱未验证。请在 Microsoft 账号中验证邮箱。
-    cannotSignInMicrosoftSSO: 无法使用 Microsoft SSO 登录，请重试！
-    cannotSignIn: 无法登录，请重试！
-    failedReloadProject: 登录后重新加载项目失败。请刷新页面。
-    loginError: 登录错误
-    signInCancelled: 登录已取消。请重试。
+    unknownError: 未知错误 # Fallback error
+    invalidOtp: 无效的 OTP，请重试！ # OTP validation error
+    cannotValidateOtp: 无法验证 OTP，请重试！ # OTP validation failure
+    emailNotVerified: 你的邮箱未验证。请在 Microsoft 账号中验证邮箱。 # MS email verification
+    cannotSignInMicrosoftSSO: 无法使用 Microsoft SSO 登录，请重试！ # MS SSO error
+    cannotSignIn: 无法登录，请重试！ # Generic sign-in error
+    failedReloadProject: 登录后重新加载项目失败。请刷新页面。 # Reload error
+    loginError: 登录错误 # Generic login error
+    signInCancelled: 登录已取消。请重试。 # Cancelled flow
+
+  # ========================================
+  # Logout Callback - Post-logout redirect
+  # ========================================
   logoutCallback:
-    redirecting: 重定向中...
-    redirectDescription: 你将在几秒钟后被重定向到应用程序。
+    redirecting: 重定向中... # Loading message (logout redirect)
+    redirectDescription: 你将在几秒钟后被重定向到应用程序。 # Help text
+
+  popupsWarning:
+    title: 无法打开登录窗口
+    description: 登录窗口可能已被您的浏览器或扩展程序拦截。请检查您的设置，然后重试。
+    needHelp: 需要帮助？
+    contactSupport: 联系支持
