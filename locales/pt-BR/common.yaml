@@ -22,11 +22,10 @@ common:
     documentation: Documentação
     releaseNotes: Notas de lançamento
     roadmap: Roteiro do produto
-    basicEditing: Experiência Básica de Edição
     sendFeedback: Enviar comentários
     askCommunity: Perguntar à comunidade
     suggestFeature: Sugerir recurso
-    contactUs: Fale Conosco
+    contactUs: Fale conosco
     sampleDiagrams: Diagramas de exemplo
     sampleAirbnb: Exemplo Airbnb
     sampleEcommerce: Exemplo E-commerce

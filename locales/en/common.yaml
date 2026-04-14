@@ -21,8 +21,7 @@ common:
     title: Help # Dropdown label (question mark icon in header toolbar)
     documentation: Documentation # External link to docs.dbdiagram.io
     releaseNotes: Release Notes # Link to changelog page
-    roadmap: Product roadmap # Link to feature roadmap (publicly visible)
-    basicEditing: Basic Editing Experience # Link to editing guide documentation
+    roadmap: Product Roadmap # Link to feature roadmap (publicly visible)
     sendFeedback: Send Feedback # Link to feedback form (opens modal)
     askCommunity: Ask Community # Link to Discord/community forum
     suggestFeature: Suggest Feature # Link to feature request board
