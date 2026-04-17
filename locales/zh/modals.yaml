@@ -137,6 +137,10 @@ modals:
     publishNewQuestion: 想要发布到另一个项目？
     publishNewAction: 发布到新项目
     resolveConflictsAndErrorsBeforePublish: 发布前请解决所有冲突和错误。
+    currentChange: 当前更改
+    incomingChange: 传入的更改
+    bothChanges: 保留双方更改
+    acceptChangeButton: 接受 {conflictTypeText}
     conflictWordSingular: 冲突
     conflictWordPlural: 冲突
   import:

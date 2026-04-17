@@ -156,6 +156,10 @@ modals:
     publishNewQuestion: Deseja publicar em outro projeto? # Prompt to publish to a new project
     publishNewAction: Publicar em um novo projeto # Action link text
     resolveConflictsAndErrorsBeforePublish: Resolva todos os conflitos e erros antes de publicar.
+    currentChange: Alteração Atual
+    incomingChange: Alteração Recebida
+    bothChanges: Ambas as Alterações
+    acceptChangeButton: Aceitar {conflictTypeText}
     conflictWordSingular: conflito
     conflictWordPlural: conflitos
 

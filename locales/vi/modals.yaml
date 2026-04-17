@@ -134,6 +134,10 @@ modals:
     publishNewQuestion: Bạn muốn xuất bản sang một dự án khác?
     publishNewAction: Xuất bản sang dự án mới
     resolveConflictsAndErrorsBeforePublish: Giải quyết tất cả các xung đột và lỗi trước khi xuất bản.
+    currentChange: thay đổi hiện tại
+    incomingChange: thay đổi mới
+    bothChanges: cả hai thay đổi
+    acceptChangeButton: Chấp nhận {conflictTypeText}
     conflictWordSingular: xung đột
     conflictWordPlural: xung đột
 

@@ -137,6 +137,10 @@ modals:
     publishNewQuestion: 別のプロジェクトに公開しますか？
     publishNewAction: 新しいプロジェクトに公開
     resolveConflictsAndErrorsBeforePublish: 公開する前に、すべての競合とエラーを解決してください。
+    currentChange: 現在の変更
+    incomingChange: 受信した変更
+    bothChanges: 両方の変更
+    acceptChangeButton: '{conflictTypeText} を適用'
     conflictWordSingular: 競合
     conflictWordPlural: 競合
   import:
