@@ -112,8 +112,8 @@ modals:
     enterProjectName: Nhập tên dự án
     options: Tùy chọn
     ownerOnlyUpdatePublishDestination: Chỉ chủ sở hữu sơ đồ mới có thể cập nhật đích đến của tài liệu
-    passwordProtection: Bảo vệ bằng mật khẩu
-    passwordOptional: Nhập mật khẩu (tùy chọn)
+    passwordProtection: Bảo vệ bằng mật khẩu (tùy chọn)
+    passwordPlaceholder: Nhập mật khẩu
     passwordMinLength: Mật khẩu phải có ít nhất 6 ký tự
     feedback: Hãy cho chúng tôi biết
     feedbackLink: phản hồi của bạn

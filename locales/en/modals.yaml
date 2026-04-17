@@ -134,8 +134,8 @@ modals:
     enterProjectName: Enter project name # Project name placeholder
     options: Options # Options section title
     ownerOnlyUpdatePublishDestination: Only diagram owner can update document destination # Non-owner message for selecting publish destination
-    passwordProtection: Password protection # Password section title
-    passwordOptional: Enter a password (optional) # Password placeholder
+    passwordProtection: Password protection (optional) # Password section title
+    passwordPlaceholder: Enter a password # Password placeholder
     passwordMinLength: Password must be at least 6 characters # Password validation
     feedback: Let us know your # Feedback label
     feedbackLink: feedback # Feedback link

@@ -115,8 +115,8 @@ modals:
     enterProjectName: 输入项目名称
     options: 选项
     ownerOnlyUpdatePublishDestination: 只有图表所有者才能更新文档目的地
-    passwordProtection: 密码保护
-    passwordOptional: 输入密码（可选）
+    passwordProtection: 密码保护（可选）
+    passwordPlaceholder: 输入密码
     passwordMinLength: 密码至少需要 6 个字符
     feedback: 请告诉我们你的
     feedbackLink: 反馈

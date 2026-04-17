@@ -134,8 +134,8 @@ modals:
     enterProjectName: Digite o nome do projeto # Project name placeholder
     options: Opções # Options section title
     ownerOnlyUpdatePublishDestination: Apenas o proprietário do diagrama pode atualizar o destino do documento
-    passwordProtection: Proteção por senha # Password section title
-    passwordOptional: Digite uma senha (optional) # Password placeholder
+    passwordProtection: Proteção por senha (optional) # Password section title
+    passwordPlaceholder: Digite uma senha # Password placeholder
     passwordMinLength: A senha deve ter pelo menos 6 caracteres # Password validation
     feedback: Deixe-nos saber seu # Feedback label
     feedbackLink: feedback # Feedback link

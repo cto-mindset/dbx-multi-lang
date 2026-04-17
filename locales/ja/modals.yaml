@@ -115,8 +115,8 @@ modals:
     enterProjectName: プロジェクト名を入力
     options: オプション
     ownerOnlyUpdatePublishDestination: ドキュメントの公開先を更新できるのは、ダイアグラムの所有者のみです。
-    passwordProtection: パスワード保護
-    passwordOptional: パスワードを入力（オプション）
+    passwordProtection: パスワード保護（オプション）
+    passwordPlaceholder: パスワードを入力
     passwordMinLength: パスワードは6文字以上である必要があります
     feedback: ご意見をお聞かせください
     feedbackLink: フィードバック
