@@ -7,7 +7,7 @@ dbrenderer:
   # ========================================
   tableSearchPanel:
     title: Jadvallar # Panel title (left sidebar header)
-    diagramViews: Diagrammalarni ko‘rish # Dropdown header for views (table search panel)
+    diagramViews: Diagrammalarni ko'rish # Dropdown header for views (table search panel)
     diagramViewsTooltip: Diagramma ko'rinishlari ma'lumotlar bazangizdagi muayyan domenlarni yoki ish oqimlarini ifodalovchi jadvallar to'plamidir. # Tooltip for views dropdown
     viewActions: Ko'rinish amallari (View actions) # Dropdown header for view actions
     cannotRenameOrDelete: "{name}ni qayta nomlab yoki o'chirib bo'lmaydi" # Error toast (default view protection)
